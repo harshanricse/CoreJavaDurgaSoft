@@ -19,5 +19,6 @@ class ThreadInterruptDemo1
 		Thread t = new MyThread();
 		t.start();
 		t.interrupt();//whenever t thread comes into sleeping state, main thread interrupts t thread
+		System.out.println("End of main thread");
 	}
 }
