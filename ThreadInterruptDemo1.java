@@ -18,6 +18,6 @@ class ThreadInterruptDemo1
 	public static void main(String []args){
 		Thread t = new MyThread();
 		t.start();
-		t.interrupt();
+		t.interrupt();//whenever t thread comes into sleeping state, main thread interrupts t thread
 	}
 }
